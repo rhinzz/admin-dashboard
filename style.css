@@ -71,3 +71,17 @@ h6 {
     height: 100%;
     grid-template: 1fr 6fr / 1fr 6fr;
 }
+
+aside {
+    background: silver;
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+}
+
+header {
+    background: rgb(164, 164, 164);
+}
+
+article {
+    background: #fdfdfd
+}
