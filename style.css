@@ -79,6 +79,7 @@ aside {
     display: grid;
     align-content: start;
     gap: 3rem;
+    padding: 1rem;
 }
 
 aside .nav,
