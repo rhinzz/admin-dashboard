@@ -82,6 +82,12 @@ aside {
     padding: 1rem;
 }
 
+aside .logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 aside .nav,
 aside .account {
     display: flex;
