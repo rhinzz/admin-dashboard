@@ -12,6 +12,7 @@
     <main class="container">
         <aside>
             <div class="logo">
+                <img src="./assets/grid-large.svg" alt="grid-logo">
                 <h1>Dashboard</h1>
             </div>
             <ul class="nav">
@@ -28,7 +29,33 @@
                 <li>Privacy</li>
             </ul>
         </aside>
-        <header></header>
+        <header>
+            <div class="search">
+                <label for="search">
+                    <img src="./assets/magnify.svg" alt="search">
+                </label>
+                <input type="search" name="search_query" id="search">
+            </div>
+            <div class="profile">
+                <img src="./assets/bell-outline.svg" alt="notification">
+                <img src="./assets/profile-picture.jpg" alt="profile-picture" id="secondary-profile-picture">
+                <p>User</p>
+            </div>
+            <div class="greeting-action">
+                <div class="greeting">
+                    <img src="./assets/profile-picture.jpg" alt="primary-profile-picture" id="primary-profile-picture">
+                    <div class="text">
+                        <p>Hi, there</p>
+                        <h2>User</h2>
+                    </div>
+                </div>
+                <div class="action">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </header>
         <article></article>
     </main>
 </body>
