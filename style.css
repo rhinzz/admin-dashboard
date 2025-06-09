@@ -80,7 +80,8 @@ img {
 }
 
 aside {
-    background: silver;
+    background: #1992D4;
+    color: #FFF;
     grid-row: 1 / 4;
     grid-column: 1 / 2;
     display: grid;
@@ -103,7 +104,7 @@ aside .account {
 }
 
 header {
-    background: rgb(164, 164, 164);
+    background: #FFF;
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-content: start;
