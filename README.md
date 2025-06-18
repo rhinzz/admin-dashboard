@@ -22,4 +22,4 @@ Simple admin dashboard project from The Odin Project.
 
 ## Link
 
-[Admin Dashboard](TBD)
+[Admin Dashboard](https://rhinzz.github.io/admin-dashboard/)
