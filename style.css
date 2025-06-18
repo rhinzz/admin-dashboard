@@ -70,8 +70,6 @@ svg {
 
 #logo {
     fill: #FFF;
-    width: 32px;
-    height: 32px;
 }
 
 #root,
@@ -97,6 +95,7 @@ aside {
     display: grid;
     align-content: start;
     gap: 3rem;
+    min-width: 200px;
     padding: 1.5rem;
 }
 
@@ -120,6 +119,7 @@ aside .account {
 aside .aside-link {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
     gap: 0.75rem;
     border-radius: 0.25rem;
     color: #FFF;
